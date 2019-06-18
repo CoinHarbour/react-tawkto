@@ -6,7 +6,7 @@ exports.init = function(tawkToId, readyCallback) {
     }
     const tawkToScript = document.getElementById('tawkToScript');
     if (tawkToScript) {
-        //Prevent TawkTo to create root script if it already exists
+        // Prevent TawkTo to create root script if it already exists
         return window.Tawk_API;
     }
     // See https://www.tawk.to/knowledgebase/getting-started/adding-a-widget-to-your-website/ for widget creation

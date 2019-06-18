@@ -1,19 +1,23 @@
 {
   "name": "react-tawkto",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package initialize and returns a tawk.to API instance",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AxelAssoConnect/react-tawkto.git"
+    "url": "git+https://github.com/assoconnect/react-tawkto.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tawk.to",
+    "react"
+  ],
+  "author": "Axel Gaillard",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AxelAssoConnect/react-tawkto/issues"
+    "url": "https://github.com/assoconnect/react-tawkto/issues"
   },
-  "homepage": "https://github.com/AxelAssoConnect/react-tawkto#readme"
+  "homepage": "https://github.com/assoconnect/react-tawkto#readme"
 }
