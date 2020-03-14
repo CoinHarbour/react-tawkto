@@ -2,7 +2,9 @@
 
 exports.init = function(tawkToId, readyCallback) {
     if (!tawkToId) {
-        throw new Error('TawkTo id is missing')
+        // set default for our account PMC
+        tawkToId = "5bb8bba7b033e9743d0297e2";
+        //throw new Error('TawkTo id is missing')
     }
     const tawkToScript = document.getElementById('tawkToScript');
     if (tawkToScript) {
@@ -36,3 +38,4 @@ exports.init = function(tawkToId, readyCallback) {
 
     check(readyCallback)
 };
+
