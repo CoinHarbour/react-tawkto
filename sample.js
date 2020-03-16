@@ -5,6 +5,7 @@ var react-tawkto = require('./react-tawkto.js').default; // Must add default.
 var thing = new react-tawkto();
 thing.test();
 
+// ************************************************************************
 // Using it in a router (ReactRouter with Switch).
 ReactDOM.render(
 (<BrowserRouter>
@@ -13,3 +14,21 @@ ReactDOM.render(
         </Switch>
 </BrowserRouter>)
 , document.getElementById("root"));
+
+
+// ************************************************************************
+//You should be able to use the component in a regular jsx file like this:
+
+var HelloWorld = require('path/to/react-tawkto.jsx');
+...    
+<div>
+    <HelloWorld></HelloWorld>
+</div>
+Or in a react-router component, with the same require statement like this:
+
+var HelloWorld = require('path/to/react-tawkto.jsx');
+....
+<Route exact path="/helloworld" component={react-tawkto}/>
+
+        
+        
